@@ -1,0 +1,74 @@
+{
+  "extensionName": {
+    "message": "ととのえっくす for X"
+  },
+  "appName": {
+    "message": "ととのえっくす"
+  },
+  "extensionDescription": {
+    "message": "URLコピー、画像優先、プレミアム案内・Grok説明・画像編集入口の非表示を個別設定できます。"
+  },
+  "uiLocale": {
+    "message": "ja"
+  },
+  "categoryBasic": {
+    "message": "基本"
+  },
+  "categoryGrok": {
+    "message": "Grok"
+  },
+  "categoryPremium": {
+    "message": "プレミアム"
+  },
+  "directCopyTitle": {
+    "message": "共有をURLコピーに"
+  },
+  "directCopyDescription": {
+    "message": "ホームの共有ボタンをURLを直接コピーするボタンに差し替えます。"
+  },
+  "imagesFirstTitle": {
+    "message": "メディアの既定を画像に"
+  },
+  "imagesFirstDescription": {
+    "message": "メディアタブを開いた時デフォルトで画像が選択されるようになります。"
+  },
+  "hideGrokExplainTitle": {
+    "message": "ポストのGrokボタンを隠す"
+  },
+  "hideGrokExplainDescription": {
+    "message": "ポスト右上の「このポストを説明する」ボタンを非表示にします。"
+  },
+  "hideImageEditTitle": {
+    "message": "画像の編集ボタンを隠す"
+  },
+  "hideImageEditDescription": {
+    "message": "画像にカーソルを重ねた時に表示される「画像を編集」ボタンを非表示にします。"
+  },
+  "hidePremiumTitle": {
+    "message": "プレミアムの案内を隠す"
+  },
+  "hidePremiumDescription": {
+    "message": "サイドメニューのプレミアムと、ホームやプロフィールに表示される加入案内を非表示にします。"
+  },
+  "loadingSettings": {
+    "message": "設定を読み込んでいます"
+  },
+  "loadError": {
+    "message": "設定を読み込めませんでした"
+  },
+  "saveError": {
+    "message": "設定を保存できませんでした"
+  },
+  "retry": {
+    "message": "再試行"
+  },
+  "copyIdle": {
+    "message": "投稿URLをコピー"
+  },
+  "copySuccess": {
+    "message": "コピーしました"
+  },
+  "copyError": {
+    "message": "コピーできませんでした。もう一度お試しください"
+  }
+}

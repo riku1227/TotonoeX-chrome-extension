@@ -1,0 +1,74 @@
+{
+  "extensionName": {
+    "message": "TotonoeX for X"
+  },
+  "appName": {
+    "message": "TotonoeX"
+  },
+  "extensionDescription": {
+    "message": "Customize X: copy post URLs directly, default to images, and hide Premium, Grok explanations, and image editing buttons."
+  },
+  "uiLocale": {
+    "message": "en"
+  },
+  "categoryBasic": {
+    "message": "General"
+  },
+  "categoryGrok": {
+    "message": "Grok"
+  },
+  "categoryPremium": {
+    "message": "Premium"
+  },
+  "directCopyTitle": {
+    "message": "Copy URL instead of Share"
+  },
+  "directCopyDescription": {
+    "message": "Replace Share on Home with a button that copies the post URL."
+  },
+  "imagesFirstTitle": {
+    "message": "Default to images"
+  },
+  "imagesFirstDescription": {
+    "message": "Select images by default when opening a profile's Media tab."
+  },
+  "hideGrokExplainTitle": {
+    "message": "Hide Grok on posts"
+  },
+  "hideGrokExplainDescription": {
+    "message": "Hide the “Explain this post” button at the top right of posts."
+  },
+  "hideImageEditTitle": {
+    "message": "Hide image editing"
+  },
+  "hideImageEditDescription": {
+    "message": "Hide the “Edit image” button that appears when you hover over an image."
+  },
+  "hidePremiumTitle": {
+    "message": "Hide Premium promotions"
+  },
+  "hidePremiumDescription": {
+    "message": "Hide Premium in the sidebar and subscription prompts on Home and profiles."
+  },
+  "loadingSettings": {
+    "message": "Loading settings…"
+  },
+  "loadError": {
+    "message": "Couldn't load settings."
+  },
+  "saveError": {
+    "message": "Couldn't save settings."
+  },
+  "retry": {
+    "message": "Retry"
+  },
+  "copyIdle": {
+    "message": "Copy post URL"
+  },
+  "copySuccess": {
+    "message": "Copied"
+  },
+  "copyError": {
+    "message": "Couldn't copy. Please try again."
+  }
+}

@@ -1,0 +1,9 @@
+Use case: logo-brand.
+Asset type: original production icon for a Chrome extension, square PNG.
+Brand: Japanese utility 「ととのえっくす」, romanized TotonoeX. It lets people tidy and customize X/Twitter's interface and interactions.
+Primary request: create one distinctive minimal app icon: a single bold, rounded, white Japanese hiragana character 「と」 centered on a solid deep sky-blue rounded-square tile. The character must be correctly recognizable as 「と」, with its short upper stroke and broad curved lower stroke; a friendly carefully drawn logo, not a font specimen. The mark feels balanced and orderly.
+Style: flat, crisp, geometric, extremely simple, vector-like. Use the existing app's calm blue palette, approximately #216bb3 for the tile and white for the mark. The tile has softly rounded corners and occupies roughly 88–92% of the square canvas. The white mark fills most of the tile with a practical safe margin, thick strokes and open negative space that will remain recognizable at 16×16 and 32×32 pixels.
+Text (verbatim): only 「と」. No other letters, words or captions.
+Background: genuinely transparent outside the rounded blue tile. Inside the tile is opaque solid blue.
+Avoid: X/Twitter's official logo, a bird, sliders, gear teeth, decorative sparkles, gradients, 3D effects, drop shadows, hairline strokes, tiny details, a presentation sheet, multiple icons, mockups, borders and watermarks.
+Output: one centered finished icon, square, large clean source suitable for later export at Chrome icon sizes.

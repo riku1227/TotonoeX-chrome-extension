@@ -1,0 +1,14 @@
+node_modules/
+test-results/
+.test-profile-*/
+dist/
+artifacts/
+.env
+.env.*
+!.env.example
+
+# Local icon exploration; adopted branding assets are tracked.
+assets/branding/icon-candidates-v1/
+assets/branding/totonoex-icon-candidates-v1.zip
+tools/export-icon-candidates.py
+tools/render-icon-gallery.mjs

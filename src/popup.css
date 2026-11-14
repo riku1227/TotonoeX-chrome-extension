@@ -1,0 +1,28 @@
+@import "./theme.css";
+@source "./*.tsx";
+
+/* ポップアップの寸法だけを拡張する。キット本体とテーマは変更しない。 */
+/* 開いた直後の狭いviewportを上限にすると、Chromeの自動拡張が止まる。 */
+html, body { width: 380px; min-width: 380px; }
+body { margin: 0; background: var(--bg); max-height: 560px; overflow-y: auto; }
+.k-app { min-height: 0; }
+.k-page { padding-bottom: var(--r-l); }
+.k-header { padding-block: 4px; }
+.k-main { margin-top: var(--r-s); }
+.k-card { padding: var(--r-m); }
+fieldset { border: 0; padding: 0; margin: 0; min-width: 0; }
+/* 設定のオンは「完了」ではないので取り消し線を使わない。 */
+.k-check[aria-checked="true"] .k-row-title { text-decoration: none; color: var(--ink); font-weight: var(--w-bold); }
+.k-check .k-row-title { font-weight: var(--w-bold); }
+/* 設定行では、完了チェックを右側のオン・オフ表示として使う。 */
+.k-check-box { order: 2; margin-left: auto; position: relative; width: 40px; height: 24px;
+  border-radius: var(--r-pill); background: var(--surface-2); box-shadow: inset 0 0 0 1px var(--line); }
+.k-check-box svg { display: none; }
+.k-check-box::after { content: ""; position: absolute; top: 4px; left: 4px;
+  width: 16px; height: 16px; border-radius: var(--r-pill); background: var(--ink-3); }
+.k-check[aria-checked="true"] .k-check-box { transform: none; }
+.k-check[aria-checked="true"] .k-check-box::after { left: 20px; background: var(--on-accent); }
+.option-note { display: block; }
+.k-check { align-items: flex-start; padding-block: var(--r-m); }
+.k-section { margin-top: 0; }
+.k-section-title > span { padding: 0; background: none; }
