@@ -26,6 +26,11 @@ for (const [source, target] of [
   ['extension/icons/icon-128.png','icons/icon-128.png'],
   ['README.md','README.md'],
   ['README.en.md','README.en.md'],
+  ['LICENSE','LICENSE'],
+  ['assets/branding/readme-banner.png','assets/branding/readme-banner.png'],
+  ['docs/development.md','docs/development.md'],
+  ['docs/reference.md','docs/reference.md'],
+  ['docs/reference.en.md','docs/reference.en.md'],
 ]) {
   const from=path.join(root,source), to=path.join(output,target);
   await mkdir(path.dirname(to), {recursive:true});
